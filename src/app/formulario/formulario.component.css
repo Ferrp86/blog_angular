@@ -1,0 +1,9 @@
+.btn{
+background-color: rgb(204, 208, 212);
+width: 200px;
+border-color: darkslategrey;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

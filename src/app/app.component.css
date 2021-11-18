@@ -1,0 +1,15 @@
+.menu{
+    background-color: lightgrey;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid lightsteelblue;
+}
