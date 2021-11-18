@@ -1,1 +1,10 @@
-<p>blog works!</p>
+<div class="publicaciones">
+    <div class="publicacion" *ngFor="let post of arrPublicacion">
+        <h3>{{post.titulo}}</h3>
+        <p>{{post.texto}}</p>
+        <p>
+            <img [src]="post.imagen" alt="">
+        </p>
+        <h5>Autor {{post.autor}} Fecha publicacion {{post.fecha}}</h5>
+    </div>
+</div>

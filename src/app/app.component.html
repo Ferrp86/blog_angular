@@ -1,1 +1,8 @@
-<router-outlet></router-outlet>
+<ul class="menu">
+    <li [routerLink]="['/new']">Nuevo post</li>
+    <li [routerLink]="['/blog']">Publicaciones</li>
+</ul>
+<div class="container">
+    <router-outlet>
+    </router-outlet>
+</div>
