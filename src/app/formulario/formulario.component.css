@@ -7,3 +7,7 @@ border-color: darkslategrey;
 label{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+select{
+    width: 100%;
+}

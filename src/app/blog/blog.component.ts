@@ -1,3 +1,4 @@
+import { getLocaleFirstDayOfWeek } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { BlogService } from '../blog.service';
 import { Post } from '../interfaces/post.interface';
@@ -17,6 +18,10 @@ export class BlogComponent implements OnInit {
 
   ngOnInit(): void {
     this.arrPublicacion = this.blogService.getAllPost();
+  }
+
+  onChange($event: Event) {
+    this.arrPublicacion = this.blogService.getPostByCategoria(($event.target as HTMLInputElement).value);
   }
 
 }
